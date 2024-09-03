@@ -1,0 +1,3046 @@
+!SESSION 2023-11-12 21:23:12.354 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:22.870
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:25.420
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:25.983
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.031
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.140
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.141
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.313
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.326
+!MESSAGE Wait for AutoBuildOffJob end 5ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.327
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.333
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.414
+!MESSAGE ProjectRegistryRefreshJob finished 80ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.423
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.638
+!MESSAGE Started org.eclipse.buildship.core 216ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:26.923
+!MESSAGE LoadingGradleVersionJob finished 284ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:27.058
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:27.320
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:28.052
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:38.152
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-12 21:23:39.320
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-12 21:23:39.326
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-12 21:23:39.326
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-12 21:23:39.326
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-12 21:23:39.326
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:39.517
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:39.545
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:39.948
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:40.016
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:40.017
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:42.236
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:47.250
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.269
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.289
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.354
+!MESSAGE Validated 1. Took 5712 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.418
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.428
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.657
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.659
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.765
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.785
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:48.967
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:49.019
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:50.040
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:50.041
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:23:50.055
+!MESSAGE Validated 1. Took 685 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:34.271
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:34.417
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:35.137
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:35.138
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:35.313
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:35.617
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:35.619
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:27:35.621
+!MESSAGE Validated 2. Took 802 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:28:10.299
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:28:12.033
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:35.397
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:36.088
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:36.234
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:36.346
+!MESSAGE Reconciled 1. Took 232 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.120
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.122
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.616
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.618
+!MESSAGE 2 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.619
+!MESSAGE Validated 2. Took 807 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.730
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.816
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.821
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.831
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.916
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.919
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.923
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:37.925
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.016
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.040
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.057
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.117
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.127
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.142
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.217
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.220
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.318
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.353
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.414
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.437
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.520
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.526
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.617
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.815
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.818
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.826
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.918
+!MESSAGE Reconciled 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.929
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.931
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:38.958
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.017
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.118
+!MESSAGE Reconciled 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.154
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.221
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.227
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.931
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:39.933
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.014
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.224
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.226
+!MESSAGE 2 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.228
+!MESSAGE Validated 2. Took 548 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.232
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.318
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.553
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.616
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.826
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:40.956
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:41.014
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:41.221
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:41.222
+!MESSAGE 2 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:41.223
+!MESSAGE Validated 2. Took 469 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:41.336
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:41.429
+!MESSAGE Reconciled 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:42.119
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:42.120
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:42.523
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:42.525
+!MESSAGE 2 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:42.526
+!MESSAGE Validated 2. Took 613 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:43.414
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:29:44.553
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:30:19.905
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:30:23.655
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:30:27.722
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:30:28.819
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:15.818
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:22.408
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:22.678
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:24.539
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:28.703
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:29.213
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:44.684
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:44.797
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:44.864
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:44.931
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.013
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.015
+!MESSAGE Reconciled 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.018
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.121
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.214
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.229
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.318
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.319
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.324
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.325
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.413
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.514
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.619
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.626
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.716
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:45.760
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.025
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.030
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.329
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.329
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.520
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.521
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.523
+!MESSAGE Validated 2. Took 362 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:46.714
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:47.492
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:47.535
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:47.851
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:47.894
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.413
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.414
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.515
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.519
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.530
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.534
+!MESSAGE Validated 2. Took 189 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:48.624
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.116
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.213
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.213
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.219
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.345
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.529
+!MESSAGE Reconciled 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.537
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.618
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.620
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.698
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.719
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.814
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.817
+!MESSAGE Reconciled 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.841
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.915
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:50.919
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.070
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.550
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.618
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.633
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.823
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.826
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.828
+!MESSAGE Validated 2. Took 510 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.831
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:51.914
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.019
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.519
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.521
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.616
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.633
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.634
+!MESSAGE 3 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:52.637
+!MESSAGE Validated 2. Took 217 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:54.464
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:55.360
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:57.899
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:57.943
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:57.949
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:57.954
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.045
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.090
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.178
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.187
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.313
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.445
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:58.513
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:59.023
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:59.025
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:59.225
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:59.225
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:31:59.229
+!MESSAGE Validated 2. Took 312 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:00.237
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:01.113
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:11.779
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:12.314
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:12.414
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:12.515
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:12.613
+!MESSAGE Reconciled 1. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.119
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.120
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.222
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.223
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.223
+!MESSAGE Validated 2. Took 208 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.313
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.830
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.914
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:13.931
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.018
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.029
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.115
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.184
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.214
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.261
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.316
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.322
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.323
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.414
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.421
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.523
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.536
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.614
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.621
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.718
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.815
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.843
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.915
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.919
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.935
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:14.974
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.213
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.226
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.314
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.314
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.413
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.513
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.513
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.537
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.541
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.615
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.817
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.823
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:15.829
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:16.243
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:16.313
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:16.417
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:16.418
+!MESSAGE 2 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:16.419
+!MESSAGE Validated 2. Took 201 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:17.049
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:18.513
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:22.812
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:23.180
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:24.053
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:24.153
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:24.650
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:30.261
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:31.135
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.244
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.338
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.810
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.811
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.828
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.829
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:33.830
+!MESSAGE Validated 2. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:34.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:34.717
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:35.138
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:35.139
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:35.217
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:35.217
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:35.218
+!MESSAGE Validated 2. Took 97 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:35.794
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:37.538
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:38.048
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:38.219
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:41.558
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.082
+!MESSAGE >> workspace/executeCommand java.apply.workspaceEdit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.091
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.138
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.558
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.559
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.622
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.624
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:43.625
+!MESSAGE Validated 2. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:44.085
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:45.687
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:46.484
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:48.816
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:49.337
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:49.513
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:50.031
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:50.034
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:50.130
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:50.131
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:50.131
+!MESSAGE Validated 2. Took 168 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:51.559
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:51.605
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:51.696
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:51.719
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:51.936
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:51.982
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.213
+!MESSAGE Reconciled 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.413
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.416
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.423
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.513
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.514
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:52.647
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.122
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.132
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.135
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.301
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.420
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.422
+!MESSAGE 2 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.423
+!MESSAGE Validated 2. Took 506 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.431
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.524
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:53.528
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:54.117
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:54.118
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:54.435
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:54.435
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:54.436
+!MESSAGE Validated 2. Took 501 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:55.416
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:55.418
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:32:56.334
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:17.138
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.229
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.324
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.384
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.480
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.908
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.908
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.923
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.924
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:19.924
+!MESSAGE Validated 2. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:20.237
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:20.952
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.018
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.019
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.118
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.214
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.320
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.413
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.517
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.518
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.526
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.663
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.815
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.820
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.829
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.831
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:21.937
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.015
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.115
+!MESSAGE Reconciled 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.117
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.121
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.123
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.223
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.343
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.415
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.731
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.733
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.915
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.937
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.943
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:22.946
+!MESSAGE Validated 2. Took 310 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.015
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.056
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.321
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.622
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.623
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.643
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.714
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:23.723
+!MESSAGE Validated 2. Took 306 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:25.546
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:39.163
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:41.312
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:41.358
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:41.481
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:41.577
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.078
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.082
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.235
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.243
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.244
+!MESSAGE Validated 2. Took 265 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.322
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.849
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.877
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:42.993
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.001
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.003
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.117
+!MESSAGE Reconciled 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.218
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.230
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.233
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.268
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.414
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.434
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.469
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.514
+!MESSAGE Reconciled 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.517
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.877
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.970
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:43.971
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:44.874
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:45.073
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:45.190
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:45.215
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:45.224
+!MESSAGE Validated 2. Took 1285 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:46.119
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:33:46.549
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:33.043
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:36.558
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:38.355
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:38.395
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:38.441
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:38.575
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:38.621
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.247
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.248
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.315
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.506
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.520
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.531
+!MESSAGE Validated 2. Took 508 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.538
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.556
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.581
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.641
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:39.716
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:40.237
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:40.237
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:40.323
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:40.325
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:40.327
+!MESSAGE Validated 2. Took 205 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:41.848
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:46.430
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:46.717
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:46.738
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:46.914
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:47.117
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:50.654
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:51.325
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:54.014
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:34:55.565
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:04.009
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:39.698
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:42.776
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:43.413
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:43.424
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:43.432
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:43.726
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:43.727
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:35:46.344
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:36:12.114
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:36:14.129
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:26.446
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:26.526
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.115
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.116
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.322
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.324
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.513
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.514
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.514
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:27.515
+!MESSAGE Validated 3. Took 537 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:36.934
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:37.934
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:38.908
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:39.002
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:39.349
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:39.405
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:39.926
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:39.927
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:40.036
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:40.037
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:40.133
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:40.137
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:40.138
+!MESSAGE Validated 3. Took 282 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:40.361
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:41.313
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:53.360
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:53.426
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.226
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.227
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.455
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.460
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.464
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.621
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.622
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.933
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.934
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:54.935
+!MESSAGE Validated 4. Took 1108 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:44:58.807
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:00.326
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:00.374
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:00.741
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:00.787
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.326
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.327
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.418
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.419
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.523
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.524
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.668
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.713
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.715
+!MESSAGE Validated 4. Took 525 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:01.749
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:02.755
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:49.821
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:45:54.918
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:46:26.840
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:46:27.009
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:46:27.352
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:46:27.974
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:46:51.558
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:22.384
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:22.475
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:24.569
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:26.915
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.011
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.518
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.518
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.612
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.613
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.633
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.655
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.656
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.827
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.828
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.829
+!MESSAGE Validated 4. Took 367 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.874
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:27.926
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.434
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.514
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.722
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.723
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.819
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.820
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.844
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.845
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:28.845
+!MESSAGE Validated 4. Took 570 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:29.949
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:47:30.276
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:50:57.659
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:03.648
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:03.720
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:04.641
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:04.654
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:04.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:04.814
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:04.849
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:04.957
+!MESSAGE Reconciled 1. Took 100 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.416
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.428
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.434
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.558
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.559
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.629
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.630
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.864
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:05.864
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.015
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.015
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.017
+!MESSAGE Validated 4. Took 609 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.026
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.044
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.045
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.050
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.052
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.055
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.056
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.057
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.149
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.727
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.733
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.923
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:06.923
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:07.116
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:07.117
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:07.434
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:07.436
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:07.437
+!MESSAGE Validated 4. Took 884 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:07.756
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:08.723
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:08.730
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:08.745
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:08.820
+!MESSAGE Reconciled 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.258
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.259
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.329
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.337
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.388
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.413
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.513
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.522
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.523
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:09.524
+!MESSAGE Validated 4. Took 301 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:10.562
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:10.670
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.043
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.218
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.219
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.341
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.342
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.425
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.426
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.632
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.648
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.713
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:11.714
+!MESSAGE Validated 4. Took 601 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:12.256
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:13.144
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:28.019
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:36.159
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:37.260
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:51:59.475
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:00.184
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:00.282
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:00.719
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:00.757
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:00.817
+!MESSAGE Reconciled 1. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.016
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.618
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.619
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.782
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.783
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.866
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.866
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.955
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.956
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:01.963
+!MESSAGE Validated 4. Took 693 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:02.185
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:03.370
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:52:24.617
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:37.049
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:37.713
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:38.063
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:38.098
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:38.613
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:40.456
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:41.115
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:41.316
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:41.341
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:41.944
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.039
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.528
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.529
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.620
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.621
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.713
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.723
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.724
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.828
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.829
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:42.829
+!MESSAGE Validated 4. Took 340 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:44.249
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 21:59:44.513
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 22:06:56.947
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 22:07:43.316
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 22:07:43.322
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 22:08:02.938
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 22:08:08.593
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-12 22:08:08.657
+!MESSAGE >> document/hover
+!SESSION 2023-11-13 11:10:29.164 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 11:10:35.253
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:37.668
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:39.384
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:39.845
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:39.848
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:39.867
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:39.870
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:40.038
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:40.039
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:40.045
+!MESSAGE ProjectRegistryRefreshJob finished 6ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:40.045
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:40.543
+!MESSAGE Started org.eclipse.buildship.core 497ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:40.551
+!MESSAGE LoadingGradleVersionJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:41.339
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:50.151
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-13 11:10:50.760
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-13 11:10:50.769
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-13 11:10:50.773
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-13 11:10:50.774
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-13 11:10:50.776
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:51.148
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:51.246
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:51.248
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:51.255
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:51.257
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:56.845
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:56.847
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:57.446
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:57.449
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.455
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.459
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.555
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.650
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.945
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.946
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.950
+!MESSAGE Clearing problems for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:58.971
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.362
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.439
+!MESSAGE Clearing problems for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.445
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.446
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.692
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.692
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.863
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:10:59.943
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:01.250
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:01.252
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:01.853
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:01.858
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:02.352
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:02.354
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:11:02.357
+!MESSAGE Validated 3. Took 2263 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:13:04.415
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 11:13:07.525
+!MESSAGE >> document/codeAction
+!SESSION 2023-11-13 12:26:45.757 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 12:26:54.145
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:26:57.863
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:26:59.943
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.391
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.443
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.555
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.566
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.670
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.672
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.677
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:00.677
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:01.440
+!MESSAGE Started org.eclipse.buildship.core 724ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:01.447
+!MESSAGE LoadingGradleVersionJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:02.141
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:09.946
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-13 12:27:10.092
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-13 12:27:10.138
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-13 12:27:10.139
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-13 12:27:10.139
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-13 12:27:10.143
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:10.363
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:10.445
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:10.452
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:10.460
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:10.464
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.046
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.053
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.526
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.537
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.983
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.984
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:14.989
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.045
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.250
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.250
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.262
+!MESSAGE Clearing problems for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.342
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.547
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.557
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.566
+!MESSAGE Clearing problems for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.569
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.951
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.953
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.958
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:15.964
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.080
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.137
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.141
+!MESSAGE Clearing problems for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.144
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.171
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.172
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.238
+!MESSAGE Clearing problems for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.240
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.362
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.365
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.375
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.439
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.854
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.864
+!MESSAGE Clearing problems for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.942
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:16.946
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.079
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.084
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.095
+!MESSAGE Clearing problems for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.138
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.261
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.341
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.495
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:17.498
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:18.856
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:18.889
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:19.453
+!MESSAGE begin problem for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:19.456
+!MESSAGE 1 problems reported for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:20.347
+!MESSAGE begin problem for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:20.373
+!MESSAGE 1 problems reported for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 12:27:20.374
+!MESSAGE Validated 3. Took 2629 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:28:50.719
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:28:57.128
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:28:57.132
+!MESSAGE Clearing problems for /HibernateUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:28:57.789
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:28:57.793
+!MESSAGE Clearing problems for /ProductModel.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:29:08.692
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:29:08.696
+!MESSAGE Clearing problems for /Main.java
+!SESSION 2023-11-13 13:35:17.760 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 13:35:25.070
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:27.953
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.048
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.459
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.461
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.569
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.572
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.666
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.675
+!MESSAGE Started org.eclipse.m2e.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.756
+!MESSAGE ProjectRegistryRefreshJob finished 79ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:30.757
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:31.083
+!MESSAGE Started org.eclipse.buildship.core 326ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:31.373
+!MESSAGE LoadingGradleVersionJob finished 289ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:31.848
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:39.457
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-13 13:35:39.572
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-13 13:35:39.575
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-13 13:35:39.576
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-13 13:35:39.576
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-13 13:35:39.577
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:39.875
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:39.904
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:39.918
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:35:39.952
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:36:48.411
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:36:52.568
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:36:52.625
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:36:54.393
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:36:54.476
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:36:54.478
+!MESSAGE Validated 1. Took 1501 ms
+!SESSION 2023-11-13 13:40:38.257 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 13:40:45.989
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:49.234
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:51.400
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.027
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.055
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.180
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.181
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.261
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.264
+!MESSAGE Started org.eclipse.m2e.core 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.291
+!MESSAGE ProjectRegistryRefreshJob finished 15ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.301
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.713
+!MESSAGE Started org.eclipse.buildship.core 417ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:52.780
+!MESSAGE LoadingGradleVersionJob finished 55ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:40:53.385
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:01.016
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-13 13:41:01.087
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-13 13:41:01.149
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-13 13:41:01.149
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-13 13:41:01.149
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-13 13:41:01.150
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:01.427
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:01.480
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:01.483
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:01.524
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:01.532
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.210
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.215
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.264
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.280
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.593
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.594
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.612
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.614
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.895
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:05.916
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:07.178
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:07.244
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 13:41:07.246
+!MESSAGE Validated 1. Took 893 ms
+!SESSION 2023-11-13 14:08:47.268 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 14:08:53.274
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:55.581
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.677
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.962
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.964
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.974
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.975
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.982
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.983
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.984
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:56.985
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:57.168
+!MESSAGE Started org.eclipse.buildship.core 183ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:57.369
+!MESSAGE LoadingGradleVersionJob finished 200ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:08:57.760
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:03.567
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-13 14:09:03.674
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-13 14:09:03.677
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-13 14:09:03.677
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-13 14:09:03.677
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-13 14:09:03.677
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:03.879
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:03.970
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:03.978
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:04.060
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:04.061
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.370
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.371
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.376
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.381
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.560
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.561
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.563
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.565
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.760
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:06.762
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:07.773
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:07.774
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:09:07.860
+!MESSAGE Validated 1. Took 698 ms
+!SESSION 2023-11-13 14:22:06.984 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 14:22:14.454
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:17.523
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:19.705
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.014
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.095
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.123
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.188
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.202
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.208
+!MESSAGE Started org.eclipse.m2e.core 6ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.221
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.224
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:20.840
+!MESSAGE Started org.eclipse.buildship.core 616ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:21.321
+!MESSAGE LoadingGradleVersionJob finished 472ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:21.988
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:29.788
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-13 14:22:29.932
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-13 14:22:29.947
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-13 14:22:29.947
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-13 14:22:29.947
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-13 14:22:29.947
+!MESSAGE /home/runner/JavaHibernateSqliteversao2 overlaps the workspace location: /home/runner/JavaHibernateSqliteversao2/.cache/jdt-language-server/data/home/runner/JavaHibernateSqliteversao2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:30.161
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:30.238
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:30.263
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:30.264
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:30.271
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:33.626
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:33.629
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:33.690
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:33.720
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.012
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.014
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.023
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.026
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.414
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.416
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.420
+!MESSAGE Clearing problems for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.431
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.686
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:34.686
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:36.362
+!MESSAGE begin problem for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:36.372
+!MESSAGE 1 problems reported for /Product.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 14:22:36.394
+!MESSAGE Validated 1. Took 1302 ms
